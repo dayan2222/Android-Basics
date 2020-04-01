@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
        RecyclerView myrv = (RecyclerView) findViewById(R.id.recyclerview_id);
        RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(this, lstBook);
-       myrv.setLayoutManager(new GridLayoutManager(this,3));
+       myrv.setLayoutManager(new GridLayoutManager(this,2));
        myrv.setAdapter(myAdapter);
     }
 }

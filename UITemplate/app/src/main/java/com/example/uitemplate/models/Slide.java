@@ -1,4 +1,4 @@
-package com.example.uitemplate;
+package com.example.uitemplate.models;
 
 public class Slide {
 

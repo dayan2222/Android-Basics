@@ -1,4 +1,4 @@
-package com.example.uitemplate;
+package com.example.uitemplate.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.uitemplate.R;
+import com.example.uitemplate.models.Movie;
 
 import java.util.List;
 
@@ -57,7 +60,6 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MyViewHolder
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
                     movieItemClickListner.onMovieClick(mData.get(getAdapterPosition()),ImgMovie);
                 }
             });

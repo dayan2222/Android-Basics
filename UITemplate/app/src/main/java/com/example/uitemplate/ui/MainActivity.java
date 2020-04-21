@@ -1,4 +1,4 @@
-package com.example.uitemplate;
+package com.example.uitemplate.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -9,9 +9,14 @@ import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
-import android.widget.TableLayout;
 import android.widget.Toast;
 
+import com.example.uitemplate.models.Movie;
+import com.example.uitemplate.adapters.MovieAdapter;
+import com.example.uitemplate.adapters.MovieItemClickListner;
+import com.example.uitemplate.R;
+import com.example.uitemplate.models.Slide;
+import com.example.uitemplate.adapters.SliderPagerAdapter;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
@@ -19,7 +24,7 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class MainActivity extends AppCompatActivity implements MovieItemClickListner{
+public class MainActivity extends AppCompatActivity implements MovieItemClickListner {
 
     private List<Slide> lstSlides;
     private ViewPager sliderpager;
@@ -53,8 +58,8 @@ public class MainActivity extends AppCompatActivity implements MovieItemClickLis
         // ini data
 
         List<Movie> lstMovies = new ArrayList<>();
-        lstMovies.add(new Movie("Dubai",R.drawable.thumb_dubai));
-        lstMovies.add(new Movie("Africa",R.drawable.thumb_africa));
+        lstMovies.add(new Movie("Dubai",R.drawable.thumb_dubai,R.drawable.bunglows2));
+        lstMovies.add(new Movie("Africa",R.drawable.thumb_africa,R.drawable.bunglows2));
         lstMovies.add(new Movie("Egypt",R.drawable.thumb_egipt));
         lstMovies.add(new Movie("Hawai",R.drawable.thumb_hawaii));
         lstMovies.add(new Movie("Machupicchu",R.drawable.thumb_machupicchu));
@@ -74,6 +79,7 @@ public class MainActivity extends AppCompatActivity implements MovieItemClickLis
         // send movie information to detail Activity
         intent.putExtra("title",movie.getTitle());
         intent.putExtra("imgURL", movie.getThumbnail());
+        intent.putExtra("imgCover", movie.getCoverPhoto());
 
         // lets create animation
         ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.this, movieImageView,"sharedName");

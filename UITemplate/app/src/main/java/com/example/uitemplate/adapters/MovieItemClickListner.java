@@ -1,6 +1,8 @@
-package com.example.uitemplate;
+package com.example.uitemplate.adapters;
 
 import android.widget.ImageView;
+
+import com.example.uitemplate.models.Movie;
 
 public interface MovieItemClickListner {
 

@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         webView = (WebView) findViewById(R.id.webview);
         // launch the site in internally
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://ekarubar.com");
+        webView.loadUrl("https://ekarubar.com/test");
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);

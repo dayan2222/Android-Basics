@@ -1,0 +1,96 @@
+{
+    "activities": [
+        {
+            "name": "autotimer.py - Untitled (Workspace) - Visual Studio Code",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2020-04-17 21:38:31",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 18,
+                    "start_time": "2020-04-17 21:38:12"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2020-04-17 21:39:59",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 52,
+                    "start_time": "2020-04-17 21:39:07"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2020-04-17 21:42:30",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 10,
+                    "start_time": "2020-04-17 21:42:20"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2020-04-17 21:46:58",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 15,
+                    "start_time": "2020-04-17 21:46:43"
+                }
+            ]
+        },
+        {
+            "name": "Development [C:\\Users\\dayan\\OneDrive\\Desktop\\Front-End-Activity-Tracker\\Development] - ...\\Libraries\\autotimer.py - PyCharm",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2020-04-17 21:39:07",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 36,
+                    "start_time": "2020-04-17 21:38:31"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2020-04-17 21:42:20",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 4,
+                    "start_time": "2020-04-17 21:42:16"
+                }
+            ]
+        },
+        {
+            "name": "Skype",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2020-04-17 21:40:08",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 9,
+                    "start_time": "2020-04-17 21:39:59"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2020-04-17 21:42:33",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 3,
+                    "start_time": "2020-04-17 21:42:30"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2020-04-17 21:46:59",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 1,
+                    "start_time": "2020-04-17 21:46:58"
+                }
+            ]
+        }
+    ]
+}
